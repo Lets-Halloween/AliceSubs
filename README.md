@@ -57,14 +57,4 @@ GitHub仓库上的文件分类是按照项目来的，具体如下：
 
 所以今后大概这个流程：
 
-```mermaid
-graph TD
-st(烤肉man传ass到群) --> if{"文件名命名是否有问题？"}
-if --是--> cond1-1["方法一：在群文件里修改文件名"]
-cond1-1 --> cond2
-if --是--> cond1-2["方法二：要求上传人重新上传个带正确文件名的文件"]
-cond1-2 --> cond2
-if --否--> cond2[管理员将文件push到仓库]
-cond2 --> cond3[把加上jsDelivr的文件下载链接插入到工作表对应人名上]
-cond3 --> ed("下一个烤肉man直接在工作表人名上的链接点击下载即可（如果没有的话再去群里找）")
-```
+![仓库办法](https://wodepicbed.oss-cn-hangzhou.aliyuncs.com/picgo/2020/仓库办法.png)
